@@ -1,8 +1,6 @@
 package com.weiyan.administrator.myapplication;
 
 import android.app.DatePickerDialog;
-import android.app.DialogFragment;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -10,21 +8,15 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.text.format.DateFormat;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.Window;
-import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 
 import com.nineoldandroids.view.ViewHelper;
 import com.weiyan.administrator.adapter.ViewPagerAdapter;
