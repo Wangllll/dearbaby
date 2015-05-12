@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/id_pager3_ll_makemoney"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/link_text_material_dark"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:onClick="pager3MakeMoneyOnClick"
+            android:id="@+id/id_pager3_makemoney_return"
+            android:src="@drawable/slidinging_leave_top_1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:text="@string/pager3_makemoney_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/background_material_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/main_top_1_1"
+            android:onClick="slidingMenu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/id_pager3_makemoney_topbt1"
+            android:background="@color/primary_text_default_material_dark"
+            android:gravity="center"
+            android:text="@string/pager3_topbt1"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/id_pager3_makemoney_topbt2"
+            android:background="@color/primary_text_default_material_dark"
+            android:text="@string/pager3_topbt2"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/id_pager3_makemoney_topbt3"
+            android:background="@color/primary_text_default_material_dark"
+            android:text="@string/pager3_topbt3"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
